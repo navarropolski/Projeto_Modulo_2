@@ -1,0 +1,135 @@
+$primary: #001514;
+$secondary: #D7D9CE;
+$tertiary: #937666;
+$clear: #4BB5C6;
+$font-stack: Finlandica;
+
+*{
+    padding : 0;
+    margin: 0;
+}
+
+body {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+    background: $secondary;
+    font: 16px Finlandica, Arial, Verdana;
+    margin-top: 100px;
+}
+
+.container {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.header {
+    background: $primary;
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    box-sizing: border-box;
+    top: 0;
+    & &-logo {
+        float: left;
+        img {
+            width: 120px;
+        }
+    }
+    & &-menu {
+        float: right;
+        border: 1px solid $secondary;
+        background: #CCC;
+        padding: 5px;
+        border-radius: 10px;
+        img {
+            width: 35px;
+        }
+    }
+    & &-nav {
+        width: 100%;
+        display: none;
+        ul {
+            list-style: none;
+            li {
+                padding: 10px;
+                box-sizing: border-box;
+                border-bottom: 1px solid $clear;
+                a {
+                    color: $clear;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    nav ul li a {
+        color: $secondary;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            color: $clear;
+        }
+    }
+
+    
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+footer {
+    background: $primary;
+    color: $secondary;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+
+.show {
+    display: inline-block !important;
+}
+
+.footer {
+    background: $primary;
+    color: $secondary;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #000;
+}
+
+@media (min-width: 480px) and (max-width: 1920px) {
+    .header {
+        & &-menu {
+            display: none !important;
+        }
+        & &-nav {
+            width: auto;
+            display: block;
+            float: right;
+            ul {
+                li {
+                    display: inline-block;
+                    border: 0;
+                    padding: 20px;
+                    a:hover {
+                        color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+}
