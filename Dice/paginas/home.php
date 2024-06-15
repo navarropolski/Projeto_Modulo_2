@@ -9,6 +9,8 @@
                     aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -35,8 +37,10 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-
-        <nav class="body-nav">
+        <br>
+        <br>
+        <br>
+        <nav class="spotlight-nav">
             <ul>
                 <li><a href="categorias" title="Categorias">Categorias</a></li>
                 <li><a href="lancamentos" title="Lançamentos">Lançamentos</a></li>
