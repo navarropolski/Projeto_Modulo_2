@@ -18,7 +18,7 @@
 <body>
     <header class="header">
         <a href="home" title="Dice" class="header-logo">
-            <img src="imagens/logo.webp" alt="Dice">
+            <img src="imagens/logo.png" alt="Dice">
         </a>
         
         <a href="javascript:showMenu()" title="Mostrar menu"  class="header-menu">

@@ -43,7 +43,7 @@ nav.spotlight-nav a {
 }
 nav.spotlight-nav a:hover {
   background-color: #D7D9CE;
-  color: #4BB5C6;
+  color: #57DEC0;
 }
 
 .carousel {
@@ -98,11 +98,15 @@ nav.spotlight-nav a:hover {
 .header .header-nav ul li {
   padding: 10px;
   box-sizing: border-box;
-  border-bottom: 1px solid #4BB5C6;
+  border-bottom: 1px solid #57DEC0;
 }
 .header .header-nav ul li a {
-  color: #4BB5C6;
+  color: #57DEC0;
   text-decoration: none;
+}
+.header .header-logo img {
+  width: 300px;
+  height: auto;
 }
 .header nav ul {
   list-style: none;
@@ -116,7 +120,7 @@ nav.spotlight-nav a:hover {
   font-weight: bold;
 }
 .header nav ul li a:hover {
-  color: #4BB5C6;
+  color: #57DEC0;
 }
 
 main {

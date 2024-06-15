@@ -1,7 +1,7 @@
 $primary: #001514;
 $secondary: #D7D9CE;
 $tertiary: #937666;
-$clear: #4BB5C6;
+$clear: #57DEC0;
 $font-stack: Finlandica;
 
 *{
@@ -112,6 +112,12 @@ nav.spotlight-nav {
             }
         }
     }
+
+    .header-logo img{
+        width: 300px;
+        height: auto;
+    }
+
     nav ul {
         list-style: none;
         display: flex;
