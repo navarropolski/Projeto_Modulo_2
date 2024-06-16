@@ -1,7 +1,8 @@
 $primary: #001514;
 $secondary: #D7D9CE;
-$tertiary: #937666;
+$tertiary: #EE8E40;
 $clear: #57DEC0;
+$hover: #F65525;
 $font-stack: Finlandica;
 
 *{
@@ -16,6 +17,21 @@ body {
     background: $secondary;
     font: 16px Finlandica, Arial, Verdana;
     margin-top: 100px;
+}
+
+.btn-botao {
+    display: inline-block;
+    padding: 10px 20px;
+    color: $secondary;
+    background-color: $tertiary;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn-botao:hover {
+    background-color: $hover;
 }
 
 nav.spotlight-nav {
@@ -106,7 +122,7 @@ nav.spotlight-nav {
                 box-sizing: border-box;
                 border-bottom: 1px solid $clear;
                 a {
-                    color: $clear;
+                    color: $secondary;
                     text-decoration: none;
                 }
             }
@@ -129,6 +145,7 @@ nav.spotlight-nav {
         color: $secondary;
         text-decoration: none;
         font-weight: bold;
+        
 
         &:hover {
             color: $clear;

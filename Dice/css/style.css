@@ -12,6 +12,21 @@ body {
   margin-top: 100px;
 }
 
+.btn-botao {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #D7D9CE;
+  background-color: #EE8E40;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn-botao:hover {
+  background-color: #F65525;
+}
+
 nav.spotlight-nav {
   background-color: #001514;
   padding: 10px;
@@ -101,7 +116,7 @@ nav.spotlight-nav a:hover {
   border-bottom: 1px solid #57DEC0;
 }
 .header .header-nav ul li a {
-  color: #57DEC0;
+  color: #D7D9CE;
   text-decoration: none;
 }
 .header .header-logo img {
