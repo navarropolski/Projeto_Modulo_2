@@ -36,18 +36,22 @@ body {
     background-color: $hover;
 }
 
-.btn-comprar {
-    display: inline-block;
-    padding: 10px 20px;
-    color: $comprarbtn;
-    background-color: $clear;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    transition: background-color 0.3s;
+.price-and-button {
+    background-color: $primary;
+    color: $secondary;
+    font-size: 16px;
+}
 
-    &:hover {
-        background-color: $comprarhover;
+.preco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    .price {
+        font-size: 16px;
+        font-weight: bold;
+        color: $secondary;
+        background-color: $primary;
     }
 }
 

@@ -27,18 +27,23 @@ body {
   background-color: #F65525;
 }
 
-.btn-comprar {
-  display: inline-block;
-  padding: 10px 20px;
-  color: #588a1b;
-  background-color: #57DEC0;
-  border: none;
-  border-radius: 10px;
-  text-align: center;
-  transition: background-color 0.3s;
+.price-and-button {
+  background-color: #001514;
+  color: #D7D9CE;
+  font-size: 16px;
 }
-.btn-comprar:hover {
-  background-color: #6fa720;
+
+.preco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.preco .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #D7D9CE;
+  background-color: #001514;
 }
 
 nav.spotlight-nav {

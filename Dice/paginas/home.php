@@ -50,57 +50,74 @@
             <br>
             <br>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
-                        <div class="card-body">
-                            <h5 class="card-title">Elden Ring</h5>
-                            <a href="#" class="btn-comprar">Comprar R$ 199,90</a>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
+                    <div class="card-body">
+                        <h5 class="card-title">Elden Ring</h5>
+                        <div class="price-and-button">
+                            <span class="price">R$ 199,90</span>
+                            <a href="#" class="btn-botao">Comprar</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Counter Strike 2</h5>
-                            <a href="#" class="btn btn-success">Comprar R$ 99,90</a>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Counter Strike 2</h5>
+                        <div class="price-and-button">
+                            <span class="price"></span>
+                            <a href="#" class="btn-botao">Grátis</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imagens/dota.jpg" class="card-img-top" alt="Dota 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Dota 2</h5>
-                            <a href="#" class="btn-comprar">Comprar Gratuito</a>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/dota.jpg" class="card-img-top" alt="Dota 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Dota 2</h5>
+                        <div class="price-and-button">
+                            <span class="price"></span>
+                            <a href="#" class="btn-botao">Grátis</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imagens/dayz.jpg" class="card-img-top" alt="DayZ">
-                        <div class="card-body">
-                            <h5 class="card-title">DayZ</h5>
-                            <a href="#" class="btn-comprar">Comprar R$ 149,90</a>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/dayz.jpg" class="card-img-top" alt="DayZ">
+                    <div class="card-body">
+                        <h5 class="card-title">DayZ</h5>
+                        <div class="price-and-button">
+                            <span class="price">R$ 149,90</span>
+                            <a href="#" class="btn-botao">Comprar</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
-                        <div class="card-body">
-                            <h5 class="card-title">Elden Ring</h5>
-                            <a href="#" class="btn-comprar">Comprar R$ 199,90</a>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
+                    <div class="card-body">
+                        <h5 class="card-title">Elden Ring</h5>
+                        <div class="price-and-button">
+                            <span class="price">R$ 199,90</span>
+                            <a href="#" class="btn-botao">Comprar</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Counter Strike 2</h5>
-                            <a href="#" class="btn-comprar">Comprar R$ 99,90</a>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Counter Strike 2</h5>
+                        <div class="price-and-button">
+                            <span class="price"></span>
+                            <a href="#" class="btn-botao">Grátis</a>
                         </div>
                     </div>
                 </div>
