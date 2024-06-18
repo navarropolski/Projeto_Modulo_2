@@ -3,6 +3,8 @@ $secondary: #D7D9CE;
 $tertiary: #EE8E40;
 $clear: #57DEC0;
 $hover: #F65525;
+$comprarbtn: #588a1b;
+$comprarhover:#6fa720;
 $font-stack: Finlandica;
 
 *{
@@ -32,6 +34,21 @@ body {
 
 .btn-botao:hover {
     background-color: $hover;
+}
+
+.btn-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    color: $comprarbtn;
+    background-color: $clear;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $comprarhover;
+    }
 }
 
 nav.spotlight-nav {
