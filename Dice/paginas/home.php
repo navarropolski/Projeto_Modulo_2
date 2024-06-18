@@ -100,11 +100,11 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
+                    <img src="imagens/shadowofwar.jpg" class="card-img-top" alt="Shadow of War">
                     <div class="card-body">
-                        <h5 class="card-title">Elden Ring</h5>
+                        <h5 class="card-title">Shadow of War</h5>
                         <div class="price-and-button">
-                            <span class="price">R$ 199,90</span>
+                            <span class="price">R$ 229,99</span>
                             <a href="#" class="btn-botao">Comprar</a>
                         </div>
                     </div>
@@ -112,12 +112,12 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4">
-                    <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
+                    <img src="imagens/ageofempires.jpg" class="card-img-top" alt="Age of Empires II: Definitive Edition">
                     <div class="card-body">
-                        <h5 class="card-title">Counter Strike 2</h5>
+                        <h5 class="card-title">Age of Empires II: Definitive Edition</h5>
                         <div class="price-and-button">
-                            <span class="price"></span>
-                            <a href="#" class="btn-botao">Grátis</a>
+                            <span class="price">R$ 36,99</span>
+                            <a href="#" class="btn-botao">Comprar</a>
                         </div>
                     </div>
                 </div>
