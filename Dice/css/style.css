@@ -110,7 +110,7 @@ nav.spotlight-nav a:hover {
   box-shadow: 0 0 10px #000;
   width: 100%;
   position: fixed;
-  padding: 15px;
+  padding: 10px;
   box-sizing: border-box;
   top: 0;
 }
@@ -141,6 +141,7 @@ nav.spotlight-nav a:hover {
   padding: 10px;
   box-sizing: border-box;
   border-bottom: 1px solid #57DEC0;
+  font-size: 20px;
 }
 .header .header-nav ul li a {
   color: #D7D9CE;
@@ -175,7 +176,7 @@ footer {
   background: #001514;
   color: #D7D9CE;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
   bottom: 0;
   width: 100%;
 }
@@ -192,6 +193,7 @@ footer {
   box-sizing: border-box;
   box-shadow: 0 0 10px #000;
   width: 100%;
+  left: 0;
 }
 
 @media (min-width: 480px) and (max-width: 1920px) {

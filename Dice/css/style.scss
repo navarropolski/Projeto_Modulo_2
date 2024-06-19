@@ -122,7 +122,7 @@ nav.spotlight-nav {
     box-shadow: 0 0 10px #000;
     width: 100%;
     position: fixed;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
     top: 0;
     & &-logo {
@@ -150,6 +150,7 @@ nav.spotlight-nav {
                 padding: 10px;
                 box-sizing: border-box;
                 border-bottom: 1px solid $clear;
+                font-size: 20px;
                 a {
                     color: $secondary;
                     text-decoration: none;
@@ -194,7 +195,7 @@ footer {
     background: $primary;
     color: $secondary;
     text-align: center;
-    padding: 15px;
+    padding: 10px;
     bottom: 0;
     width: 100%;
 }
@@ -211,6 +212,7 @@ footer {
     box-sizing: border-box;
     box-shadow: 0 0 10px #000;
     width: 100%;
+    left: 0;
 }
 
 @media (min-width: 480px) and (max-width: 1920px) {
