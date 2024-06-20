@@ -40,6 +40,7 @@ body {
     background-color: $primary;
     color: $secondary;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .preco {
@@ -124,6 +125,7 @@ nav.spotlight-nav {
     position: fixed;
     padding: 10px;
     box-sizing: border-box;
+    z-index: 9;
     top: 0;
     & &-logo {
         float: left;
