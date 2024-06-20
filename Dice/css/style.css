@@ -26,8 +26,12 @@ body {
 .price-and-button {
   background-color: #001514;
   color: #D7D9CE;
+<<<<<<< HEAD
   font-size: 16px;
   border-radius: 10px; }
+=======
+  font-size: 16px; }
+>>>>>>> 932972f72f1961a5bdc053d1093d961ef12f71da
 
 .preco {
   display: flex;
@@ -95,7 +99,10 @@ nav.spotlight-nav {
   position: fixed;
   padding: 10px;
   box-sizing: border-box;
+<<<<<<< HEAD
   z-index: 9;
+=======
+>>>>>>> 932972f72f1961a5bdc053d1093d961ef12f71da
   top: 0; }
   .header .header-logo {
     float: left; }
