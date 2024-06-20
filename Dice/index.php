@@ -43,10 +43,7 @@
     
     if (isset($_GET["param"])) {
         $param = $_GET["param"];
-        //separar o parâmetro por /
         $p = explode("/", $param);
-
-        //print_r($p); verificar se está enviando alguma coisa
     }
 
     $page = $p[0] ?? "home";
@@ -58,7 +55,6 @@
         $pagina = "paginas/{$page}.php";
     }
 
-    //verificar se a página existe
     if (file_exists($pagina)) {
         include $pagina;
     } else {
