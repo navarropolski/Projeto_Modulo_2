@@ -40,7 +40,6 @@
 
     <main>
 
-<<<<<<< HEAD
         <?php
         if (isset($_GET["param"])) {
             $param = $_GET["param"];
@@ -49,14 +48,6 @@
 
         $page = $p[0] ?? "home";
         $jogo = $p[1] ?? NULL;
-=======
-    <?php
-    
-    if (isset($_GET["param"])) {
-        $param = $_GET["param"];
-        $p = explode("/", $param);
-    }
->>>>>>> 932972f72f1961a5bdc053d1093d961ef12f71da
 
         if ($page == "jogo") {
             $pagina = "jogo/{$jogo}.php";
