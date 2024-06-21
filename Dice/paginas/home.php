@@ -12,6 +12,7 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
             </div>
+            
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="imagens/eldenring.jpg" class="d-block w-100" alt="Elden Ring">
