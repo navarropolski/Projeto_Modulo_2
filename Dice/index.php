@@ -71,15 +71,6 @@
         }
         ?>
 
-<<<<<<< HEAD
-=======
-    if (file_exists($pagina)) {
-        include $pagina;
-    } else {
-        include "paginas/erro.php";
-    }
-    ?>
->>>>>>> 932972f72f1961a5bdc053d1093d961ef12f71da
     </main>
     <footer class="footer">
         <p>Copyright &copy; 2024 - Dice Inc - Todos os direitos reservados.</p>
