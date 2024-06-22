@@ -93,13 +93,14 @@ nav.spotlight-nav {
 
 .video-loop-container {
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
 .video-loop {
     width: 100%;
     height: auto;
-    display: block;
+    object-fit: cover;
 }
 
 .carousel {
@@ -215,6 +216,10 @@ footer {
     display: inline-block !important;
 }
 
+.about-dev {
+    text-align: center;
+}
+
 .footer {
     background: $primary;
     color: $secondary;
@@ -222,7 +227,9 @@ footer {
     padding: 15px;
     box-sizing: border-box;
     box-shadow: 0 0 10px #000;
+    list-style: none;
     width: 100%;
+    bottom: 0;
     left: 0;
 }
 

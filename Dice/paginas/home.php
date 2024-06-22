@@ -54,6 +54,32 @@
         </nav>
             <br>
             <br>
+        
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/snakelogo.jpeg" class="card-img-top" alt="Snake Game">
+                    <div class="card-body">
+                        <h5 class="card-title">Snake</h5>
+                        <div class="price-and-button">
+                            <span class="price"></span>
+                            <a href="#" class="btn-botao">Grátis</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="imagens/labfygizelogo.jpg" class="card-img-top" alt="LabFy Gize">
+                    <div class="card-body">
+                        <h5 class="card-title">LabFy Gize</h5>
+                        <div class="price-and-button">
+                            <span class="price"></span>
+                            <a href="#" class="btn-botao">Grátis</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4">
