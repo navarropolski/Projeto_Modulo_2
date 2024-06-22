@@ -28,10 +28,12 @@ body {
     border-radius: 10px;
     text-align: center;
     transition: background-color 0.3s;
+    text-decoration: none;
 }
 
 .btn-botao:hover {
     background-color: $hover;
+    text-decoration: none;
 }
 
 .price-and-button {
@@ -94,6 +96,7 @@ nav.spotlight-nav {
 .video-loop-container {
     width: 100%;
     height: auto;
+    padding: 0rem;
 }
 
 .video-loop {
@@ -120,6 +123,14 @@ nav.spotlight-nav {
         width: 70%;
         height: auto;
     }
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    display: grid;
+    flex-direction: column;
 }
 
 .container {

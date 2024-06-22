@@ -1,10 +1,12 @@
-<div class="container">
+
 
     <body>
-       
+        
         <div class="video-loop-container">
             <video class="video-loop" src="imagens/videoeldenring.webm" autoplay muted loop></video>
         </div>
+    
+    <div class="container">
 
         <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 30px;">
             <div class="carousel-indicators">
@@ -15,7 +17,7 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
+                    aria-label="Slide 4"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -52,14 +54,58 @@
                 <li><a href="promocoes" title="Promoções">Promoções</a></li>
             </ul>
         </nav>
-            <br>
-            <br>
-        
-            <div class="col-md-4">
+        <br>
+        <br>
+
+        <div class="card">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card mb-4">
+                        <img src="imagens/hoi4.jpg" class="card-img-top" alt="Hearts of Iron IV">
+                        <div class="card-body">
+                            <h5 class="card-title">Hearts of Iron IV</h5>
+                            <div class="price-and-button">
+                                <span class="price">R$ 179,99</span>
+                                <a href="#" class="btn-botao">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card mb-4">
+                        <img src="imagens/rust.jpg" class="card-img-top" alt="Rust">
+                        <div class="card-body">
+                            <h5 class="card-title">Rust</h5>
+                            <div class="price-and-button">
+                                <span class="price">R$ 103,49</span>
+                                <a href="#" class="btn-botao">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card mb-4">
+                    <img src="imagens/deeprock.jpg" class="card-img-top" alt="Deep Rock Galactic">
+                    <div class="card-body">
+                        <h5 class="card-title">Deep Rock Galactic</h5>
+                        <div class="price-and-button">
+                            <span class="price">R$ 57,99</span>
+                            <a href="#" class="btn-botao">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/snakelogo.jpeg" class="card-img-top" alt="Snake Game">
                     <div class="card-body">
-                        <h5 class="card-title">Snake</h5>
+                        <h5 class="card-title">Snake Game</h5>
                         <div class="price-and-button">
                             <span class="price"></span>
                             <a href="#" class="btn-botao">Grátis</a>
@@ -67,8 +113,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-            <div class="col-md-4">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/labfygizelogo.jpg" class="card-img-top" alt="LabFy Gize">
                     <div class="card-body">
@@ -80,8 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
                     <div class="card-body">
@@ -93,7 +138,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
                     <div class="card-body">
@@ -105,7 +151,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/dota.jpg" class="card-img-top" alt="Dota 2">
                     <div class="card-body">
@@ -117,7 +164,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/dayz.jpg" class="card-img-top" alt="DayZ">
                     <div class="card-body">
@@ -129,7 +177,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/shadowofwar.jpg" class="card-img-top" alt="Shadow of War">
                     <div class="card-body">
@@ -141,7 +190,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card mb-4">
                     <img src="imagens/ageofempires.jpg" class="card-img-top" alt="Age of Empires II: Definitive Edition">
                     <div class="card-body">
@@ -154,9 +204,9 @@
                 </div>
             </div>
         </div>
-    </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl4OJNyW1kWzoZ6U8CZ4hI4jEonyj1aiuhxr/DJ2Xy"
-        crossorigin="anonymous">
+    </div>
+        </body>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl4OJNyW1kWzoZ6U8CZ4hI4jEonyj1aiuhxr/DJ2Xy" crossorigin="anonymous">
     </script>
-</div>
