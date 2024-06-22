@@ -91,6 +91,17 @@ nav.spotlight-nav {
     }
   }
 
+.video-loop-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-loop {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .carousel {
     position: relative;
     width: 100%;

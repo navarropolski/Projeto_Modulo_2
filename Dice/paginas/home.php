@@ -1,7 +1,12 @@
 <div class="container">
 
     <body>
-        <div id="carouselExampleIndicators" class="carousel slide">
+       
+        <div class="video-loop-container">
+            <video class="video-loop" src="imagens/videoeldenring.webm" autoplay muted loop></video>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 30px;">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -12,7 +17,6 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
                 aria-label="Slide 4"></button>
             </div>
-            
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="imagens/eldenring.jpg" class="d-block w-100" alt="Elden Ring">
