@@ -84,7 +84,6 @@ nav.spotlight-nav a:hover {
 .video-loop-container {
   width: 100%;
   height: auto;
-  overflow: hidden;
 }
 
 .video-loop {
@@ -186,15 +185,6 @@ main {
   margin-bottom: 60px;
 }
 
-footer {
-  background: #001514;
-  color: #D7D9CE;
-  text-align: center;
-  padding: 10px;
-  bottom: 0;
-  width: 100%;
-}
-
 .show {
   display: inline-block !important;
 }
@@ -214,6 +204,7 @@ footer {
   width: 100%;
   bottom: 0;
   left: 0;
+  box-sizing: border-box;
 }
 
 @media (min-width: 480px) and (max-width: 1920px) {
