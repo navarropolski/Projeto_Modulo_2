@@ -22,7 +22,7 @@ body {
 .btn-botao {
     display: inline-block;
     padding: 10px 20px;
-    color: $secondary;
+    color: #FFF;
     background-color: $tertiary;
     border: none;
     border-radius: 10px;
@@ -215,6 +215,13 @@ main {
 
 .show {
     display: inline-block !important;
+}
+
+.accordion-body {
+    ul{
+        list-style: none;
+        padding: 5px;
+    }
 }
 
 .about-dev {

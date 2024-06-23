@@ -13,12 +13,26 @@
                 <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <ul>
-                            <li>Dark Legacy</li>
-                            <li>LabFy Gize</li>
-                            <li>Snake Game</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Dark Legacy</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">LabFy Gize</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Snake Game</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Deep Rock Galactic</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Elden Ring</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Counter Strike 2</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Dota 2</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">DayZ</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Shadow of War</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Age of Empires II: Definitive Edition</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Hearts of Iron IV</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-one">Rust</li>
                         </ul>
                     </div>
                 </div>
+                <div class="mt-4">
+                        <h5></h>
+                        <p id="selected-button-one" class="btn-botao">Nenhum produto selecionado.</p>
+                </div>
+               
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -28,12 +42,18 @@
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                         data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                            demonstrate
-                            the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's
-                            imagine
-                            this being filled with some actual content.</div>
+                        <div class="accordion-body">
+                            <ul>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-two">Não consigo acessar a página de compra.</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-two">Não estou conseguindo jogar.</li>
+                            <li class="btn-botao w-100 selectable" data-target="selected-button-two">Não consigo acessar a página deste jogo.</li>
+                            </ul>
+                        </div>
                     </div>
+                </div>
+                <div class="mt-4">
+                        <h5></h>
+                        <p id="selected-button-two" class="btn-botao">Nenhum produto selecionado.</p>
                 </div>
             </div>
             <div class="mb-3">
@@ -42,7 +62,7 @@
             </div>
 
             <p class="text-center">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" class="btn btn-botao" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Enviar requisição
                 </button>
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -64,4 +84,61 @@
             </div>
             </p>
     </h2>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+       
+        function handleButtonClick(event) {
+            const button = event.currentTarget;
+            const targetId = button.getAttribute('data-target');
+            const buttons = document.querySelectorAll(`button[data-target='${targetId}']`);
+            const displayElement = document.getElementById(targetId);
+
+            buttons.forEach(btn => btn.classList.remove('selected'));
+            button.classList.add('selected');
+
+            displayElement.textContent = button.textContent;
+
+            const accordionCollapse = button.closest('.accordion-collapse');
+            const accordionInstance = bootstrap.Collapse.getOrCreateInstance(accordionCollapse);
+            accordionInstance.hide();
+        }
+
+        document.querySelectorAll('.selectable').forEach(button => {
+            button.addEventListener('click', handleButtonClick);
+        });
+    </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const buttons = document.querySelectorAll('.accordion-body .btn-botao');
+        
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const accordionCollapse = document.getElementById('flush-collapseOne');
+                const bsCollapse = new bootstrap.Collapse(accordionCollapse, {
+                    toggle: false
+                });
+                bsCollapse.hide();
+            });
+        });
+    });
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const buttons = document.querySelectorAll('.accordion-body .btn-botao');
+        
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const accordionCollapse = document.getElementById('flush-collapseTwo');
+                const bsCollapse = new bootstrap.Collapse(accordionCollapse, {
+                    toggle: false
+                });
+                bsCollapse.hide();
+            });
+        });
+    });
+</script>
+
 </div>
