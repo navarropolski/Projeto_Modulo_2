@@ -1,6 +1,7 @@
 $primary: #001514;
-$secondary: #D7D9CE;
+$secondary: #FFF;
 $tertiary: #EE8E40;
+$background: #1E3231;
 $clear: #57DEC0;
 $hover: #F65525;
 $font-stack: Finlandica;
@@ -14,15 +15,16 @@ body {
     font-family: $font-stack;
     margin: 0;
     padding: 0;
-    background: $secondary;
+    background: $background;
     font: 16px Finlandica, Arial, Verdana;
-    margin-top: 100px;
+    padding-top: 100px;
+    width: 100%;
 }
 
 .btn-botao {
     display: inline-block;
     padding: 10px 20px;
-    color: #FFF;
+    color: $secondary;
     background-color: $tertiary;
     border: none;
     border-radius: 10px;
@@ -95,8 +97,7 @@ nav.spotlight-nav {
 
 .video-loop-container {
     width: 100%;
-    height: auto;
-    padding: 0rem;
+    margin: 0px;
 }
 
 .video-loop {
@@ -134,7 +135,7 @@ nav.spotlight-nav {
 }
 
 .container {
-    width: 1500px;
+    width: 1000px;
     margin: 30px auto;
 }
 
@@ -217,6 +218,7 @@ main {
     display: inline-block !important;
 }
 
+
 .accordion-body {
     ul{
         list-style: none;
@@ -236,9 +238,8 @@ main {
     box-sizing: border-box;
     box-shadow: 0 0 10px #000;
     list-style: none;
-    width: 100%;
+    right: 0;
     bottom: 0;
-    left: 0;
 }
 
 @media (min-width: 480px) and (max-width: 1920px) {

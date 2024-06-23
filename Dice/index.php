@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="icon" href="imagens/icon.webp">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,24 +64,25 @@
         ?>
 
     </main>
+    <div class="container">
     <footer class="footer">
-        <p>Copyright &copy; 2024 - Dice Inc - Todos os direitos reservados.</p>
-        <li><a href="sobre-o-desenvolvedor" title="Sobre o Desenvolvedor" >Sobre o
-                Desenvolvedor</a></li>
+        <li><a>Copyright &copy; 2024 - Dice Inc - Todos os direitos reservados.</a></li>
+        <li><a href="sobre-o-desenvolvedor" title="Sobre o Desenvolvedor">Sobre o Desenvolvedor</a></li>
     </footer>
-
+    </div>
     <script>
         function showMenu() {
             var menu = document.querySelector(".header-nav");
             menu.classList.toggle("show");
         }
     </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous">
     </script>
 
 </body>
+
+    
 
 </html>

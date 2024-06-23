@@ -30,7 +30,7 @@
                 </div>
                 <div class="mt-4">
                         <h5></h>
-                        <p id="selected-button-one" class="btn-botao">Nenhum produto selecionado.</p>
+                        <p id="selected-button-one" class="btn-botao w-100">Nenhum produto selecionado.</p>
                 </div>
                
                 <div class="accordion-item">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="mt-4">
                         <h5></h>
-                        <p id="selected-button-two" class="btn-botao">Nenhum produto selecionado.</p>
+                        <p id="selected-button-two" class="btn-botao w-100">Nenhum produto selecionado.</p>
                 </div>
             </div>
             <div class="mb-3">
