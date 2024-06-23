@@ -5,44 +5,44 @@
     </div>
 
     <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 30px;">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imagens/eldenring.jpg" class="d-block w-100" alt="Elden Ring">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagens/cs2.jpg" class="d-block w-100" alt="Counter Strike 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagens/dota.jpg" class="d-block w-100" alt="Dota 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagens/dayz.jpg" class="d-block w-100" alt="DayZ">
-                    </div>
+        <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 30px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagens/eldenring.jpg" class="d-block w-100" alt="Elden Ring">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item">
+                    <img src="imagens/cs2.jpg" class="d-block w-100" alt="Counter Strike 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/dota.jpg" class="d-block w-100" alt="Dota 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagens/dayz.jpg" class="d-block w-100" alt="DayZ">
+                </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <nav class="spotlight-nav">
-                <ul>
-                    <li><a href="categorias" title="Categorias">Categorias</a></li>
-                    <li><a href="lancamentos" title="Lançamentos">Lançamentos</a></li>
-                    <li><a href="promocoes" title="Promoções">Promoções</a></li>
-                </ul>
-            </nav>
-            <br>
-            <br>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <nav class="spotlight-nav">
+            <ul>
+                <li><a href="categorias" title="Categorias">Categorias</a></li>
+                <li><a href="lancamentos" title="Lançamentos">Lançamentos</a></li>
+                <li><a href="promocoes" title="Promoções">Promoções</a></li>
+            </ul>
+        </nav>
+        <br>
+        <br>
 
         <div class="card">
             <div class="row">
@@ -53,7 +53,7 @@
                             <h5 class="card-title">Dark Legacy</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="https://projeto-jogo-blush.vercel.app/index3.html" class="btn-botao">Grátis</a>
+                                <a href="darklegacy.php" class="btn-botao">Grátis</a>
                             </div>
                         </div>
                     </div>
@@ -84,127 +84,128 @@
                 </div>
             </div>
             <div class="row">
-                <div class="card mb-4">
-                    <img src="imagens/deeprock.jpg" class="card-img-top" alt="Deep Rock Galactic">
-                    <div class="card-body">
-                        <h5 class="card-title">Deep Rock Galactic</h5>
-                        <div class="price-and-button">
-                            <span class="price">R$ 57,99</span>
-                            <a href="#" class="btn-botao">Comprar</a>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card mb-4">
-                        <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
+                        <img src="imagens/deeprock.jpg" class="card-img-top" alt="Deep Rock Galactic">
                         <div class="card-body">
-                            <h5 class="card-title">Elden Ring</h5>
+                            <h5 class="card-title">Deep Rock Galactic</h5>
                             <div class="price-and-button">
-                                <span class="price">R$ 199,90</span>
-                                <a href="#" class="btn-botao">Comprar</a>
+                                <span class="price">R$ 57,99</span>
+                                <a href="deeprock.php" class="btn-botao">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/eldenring.jpg" class="card-img-top" alt="Elden Ring">
+                            <div class="card-body">
+                                <h5 class="card-title">Elden Ring</h5>
+                                <div class="price-and-button">
+                                    <span class="price">R$ 199,90</span>
+                                    <a href="#" class="btn-botao">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Counter Strike 2</h5>
+                                <div class="price-and-button">
+                                    <span class="price"></span>
+                                    <a href="#" class="btn-botao">Grátis</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card mb-4">
-                        <img src="imagens/cs2.jpg" class="card-img-top" alt="Counter Strike 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Counter Strike 2</h5>
-                            <div class="price-and-button">
-                                <span class="price"></span>
-                                <a href="#" class="btn-botao">Grátis</a>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/dota.jpg" class="card-img-top" alt="Dota 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Dota 2</h5>
+                                <div class="price-and-button">
+                                    <span class="price"></span>
+                                    <a href="#" class="btn-botao">Grátis</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/dayz.jpg" class="card-img-top" alt="DayZ">
+                            <div class="card-body">
+                                <h5 class="card-title">DayZ</h5>
+                                <div class="price-and-button">
+                                    <span class="price">R$ 149,90</span>
+                                    <a href="#" class="btn-botao">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/shadowofwar.jpg" class="card-img-top" alt="Shadow of War">
+                            <div class="card-body">
+                                <h5 class="card-title">Shadow of War</h5>
+                                <div class="price-and-button">
+                                    <span class="price">R$ 229,99</span>
+                                    <a href="#" class="btn-botao">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/ageofempires.jpg" class="card-img-top"
+                                alt="Age of Empires II: Definitive Edition">
+                            <div class="card-body">
+                                <h5 class="card-title">Age of Empires II: Definitive Edition</h5>
+                                <div class="price-and-button">
+                                    <span class="price">R$ 36,99</span>
+                                    <a href="#" class="btn-botao">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/hoi4.jpg" class="card-img-top" alt="Hearts of Iron VI">
+                            <div class="card-body">
+                                <h5 class="card-title">Hearts of Iron VI</h5>
+                                <div class="price-and-button">
+                                    <span class="price">R$ 179,99</span>
+                                    <a href="#" class="btn-botao">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card mb-4">
+                            <img src="imagens/rust.jpg" class="card-img-top" alt="Rust">
+                            <div class="card-body">
+                                <h5 class="card-title">Rust</h5>
+                                <div class="price-and-button">
+                                    <span class="price">R$ 103,49</span>
+                                    <a href="#" class="btn-botao">Comprar</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card mb-4">
-                        <img src="imagens/dota.jpg" class="card-img-top" alt="Dota 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Dota 2</h5>
-                            <div class="price-and-button">
-                                <span class="price"></span>
-                                <a href="#" class="btn-botao">Grátis</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card mb-4">
-                        <img src="imagens/dayz.jpg" class="card-img-top" alt="DayZ">
-                        <div class="card-body">
-                            <h5 class="card-title">DayZ</h5>
-                            <div class="price-and-button">
-                                <span class="price">R$ 149,90</span>
-                                <a href="#" class="btn-botao">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card mb-4">
-                        <img src="imagens/shadowofwar.jpg" class="card-img-top" alt="Shadow of War">
-                        <div class="card-body">
-                            <h5 class="card-title">Shadow of War</h5>
-                            <div class="price-and-button">
-                                <span class="price">R$ 229,99</span>
-                                <a href="#" class="btn-botao">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card mb-4">
-                        <img src="imagens/ageofempires.jpg" class="card-img-top"
-                            alt="Age of Empires II: Definitive Edition">
-                        <div class="card-body">
-                            <h5 class="card-title">Age of Empires II: Definitive Edition</h5>
-                            <div class="price-and-button">
-                                <span class="price">R$ 36,99</span>
-                                <a href="#" class="btn-botao">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card mb-4">
-                        <img src="imagens/hoi4.jpg" class="card-img-top" alt="Hearts of Iron VI">
-                        <div class="card-body">
-                            <h5 class="card-title">Hearts of Iron VI</h5>
-                            <div class="price-and-button">
-                                <span class="price">R$ 179,99</span>
-                                <a href="#" class="btn-botao">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card mb-4">
-                        <img src="imagens/rust.jpg" class="card-img-top" alt="Rust">
-                        <div class="card-body">
-                            <h5 class="card-title">Rust</h5>
-                            <div class="price-and-button">
-                                <span class="price">R$ 103,49</span>
-                                <a href="#" class="btn-botao">Comprar</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
 </body>
 
