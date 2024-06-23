@@ -34,7 +34,6 @@
                 <li><a href="cadastre-se" title="Cadastre-se" class="btn-botao">Cadastre-se</a></li>
                 <li><a href="login" title="Login" class="btn-botao">Login</a></li>
             </ul>
-
         </nav>
     </header>
 
