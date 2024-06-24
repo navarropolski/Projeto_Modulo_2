@@ -7,7 +7,7 @@ body {
   font-family: Finlandica;
   margin: 0;
   padding: 0;
-  background: #1E3231;
+  background: #D7D9CE;
   font: 16px Finlandica, Arial, Verdana;
   padding-top: 100px;
   width: 100%;
@@ -16,7 +16,7 @@ body {
 .btn-botao {
   display: inline-block;
   padding: 10px 20px;
-  color: #FFF;
+  color: #D7D9CE;
   background-color: #EE8E40;
   border: none;
   border-radius: 10px;
@@ -32,7 +32,7 @@ body {
 
 .price-and-button {
   background-color: #001514;
-  color: #FFF;
+  color: #D7D9CE;
   font-size: 16px;
   border-radius: 10px;
 }
@@ -46,7 +46,7 @@ body {
 .preco .price {
   font-size: 16px;
   font-weight: bold;
-  color: #FFF;
+  color: #D7D9CE;
   background-color: #001514;
 }
 
@@ -73,14 +73,14 @@ nav.spotlight-nav li:last-child {
   margin-right: 0;
 }
 nav.spotlight-nav a {
-  color: #FFF;
+  color: #D7D9CE;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
 }
 nav.spotlight-nav a:hover {
-  background-color: #FFF;
+  background-color: #D7D9CE;
   color: #57DEC0;
 }
 
@@ -146,7 +146,7 @@ nav.spotlight-nav a:hover {
 }
 .header .header-menu {
   float: right;
-  border: 1px solid #FFF;
+  border: 1px solid #D7D9CE;
   background: #CCC;
   padding: 5px;
   border-radius: 10px;
@@ -168,7 +168,7 @@ nav.spotlight-nav a:hover {
   font-size: 20px;
 }
 .header .header-nav ul li a {
-  color: #FFF;
+  color: #D7D9CE;
   text-decoration: none;
 }
 .header .header-logo img {
@@ -182,7 +182,7 @@ nav.spotlight-nav a:hover {
   padding: 0;
 }
 .header nav ul li a {
-  color: #FFF;
+  color: #D7D9CE;
   text-decoration: none;
   font-weight: bold;
 }
@@ -211,7 +211,7 @@ main {
 
 .footer {
   background: #001514;
-  color: #FFF;
+  color: #D7D9CE;
   text-align: center;
   padding: 15px;
   box-sizing: border-box;
@@ -236,7 +236,7 @@ main {
     padding: 20px;
   }
   .header .header-nav ul li a:hover {
-    color: #FFF;
+    color: #D7D9CE;
   }
 }
 

@@ -1,7 +1,6 @@
 $primary: #001514;
-$secondary: #FFF;
+$secondary: #D7D9CE;
 $tertiary: #EE8E40;
-$background: #1E3231;
 $clear: #57DEC0;
 $hover: #F65525;
 $font-stack: Finlandica;
@@ -15,7 +14,7 @@ body {
     font-family: $font-stack;
     margin: 0;
     padding: 0;
-    background: $background;
+    background: $secondary;
     font: 16px Finlandica, Arial, Verdana;
     padding-top: 100px;
     width: 100%;
