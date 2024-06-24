@@ -4,23 +4,38 @@
     <div class="container">
 
         <div class="video-loop-container">
+            <a href="https://store.steampowered.com/app/2778580/ELDEN_RING_Shadow_of_the_Erdtree/" target="_blank"
+            title="Elden Ring Shadow of the Erdtree">
             <video class="video-loop" src="imagens/videoeldenring.webm" autoplay muted loop></video>
+            </a>
         </div>
 
         <div id="carouselExampleIndicators" class="carousel slide" style="margin-top: 30px;">
             <div class="carousel-inner">
+                <a href="https://store.steampowered.com/app/212500/The_Lord_of_the_Rings_Online/" target="_blank"
+                title="The Lord of the Rings Online">
                 <div class="carousel-item active">
-                    <img src="imagens/eldenring.jpg" class="d-block w-100" alt="Elden Ring">
+                    <img src="imagens/lotro.jpg" class="d-block w-100" alt="The Lord of the Rings Online">
                 </div>
+                </a>
+                <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank"
+                title="Counter Strike 2">
                 <div class="carousel-item">
                     <img src="imagens/cs2.jpg" class="d-block w-100" alt="Counter Strike 2">
                 </div>
+                </a>
+                <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank"
+                title="Dota 2">
                 <div class="carousel-item">
                     <img src="imagens/dota.jpg" class="d-block w-100" alt="Dota 2">
                 </div>
+                </a>
+                <a href="https://store.steampowered.com/app/221100/DayZ/" target="_blank"
+                title="DayZ">
                 <div class="carousel-item">
                     <img src="imagens/dayz.jpg" class="d-block w-100" alt="DayZ">
                 </div>
+                </a>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
