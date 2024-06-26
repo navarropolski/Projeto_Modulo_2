@@ -17,6 +17,7 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Lembre-se de mim</label>
         </div>
+        <br>
         <button type="submit" class="btn btn-botao">Fazer login</button>
     </form>
     </h2>

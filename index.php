@@ -25,7 +25,7 @@
             <img src="imagens/logo.png" alt="Dice">
         </a>
 
-        <a href="javascript:showMenu()" title="Mostrar menu" class="header-menu">
+        <a onclick="showMenu()" title="Mostrar menu" class="header-menu">
             <img src="imagens/menu.webp" alt="Menu">
         </a>
 
@@ -71,14 +71,15 @@
         ?>
 
     </main>
-    <div class="container">
+    
     <footer class="footer">
         <li><a>Copyright &copy; 2024 - Dice Inc - Todos os direitos reservados.</a></li>
         <li><a href="sobre-o-desenvolvedor" title="Sobre o Desenvolvedor">Sobre o Desenvolvedor</a></li>
     </footer>
-    </div>
+
     <script>
         function showMenu() {
+            console.log('entrou na função');
             var menu = document.querySelector(".header-nav");
             menu.classList.toggle("show");
         }
