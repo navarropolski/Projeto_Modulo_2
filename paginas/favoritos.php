@@ -21,7 +21,7 @@
                                 <h5 class="card-title">Dark Legacy</h5>
                                 <div class="price-and-button">
                                     <span class="price"></span>
-                                    <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/Projeto_Modulo_2/jogo/darklegacy"
+                                    <a href="http://localhost/Projeto_Modulo_2/Projeto_Modulo_2/jogo/darklegacy"
                                         class="btn-botao">Jogar</a>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@
                             <h5 class="card-title">DayZ</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/dayz/" class="btn-botao">Jogar</a>
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/dayz/" class="btn-botao">Jogar</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@
                             <h5 class="card-title">Dota 2</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/dota2/" class="btn-botao">Jogar</a>
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/dota2/" class="btn-botao">Jogar</a>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                             <h5 class="card-title">Shadow of War</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 229,99</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/shadowofwar/"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/shadowofwar/"
                                     class="btn-botao">Comprar</a>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                             <h5 class="card-title">Hearts of Iron VI</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 179,99</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/heartsofiron4"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/heartsofiron4"
                                     class="btn-botao">Comprar</a>
                             </div>
                         </div>

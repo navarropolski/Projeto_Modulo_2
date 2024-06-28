@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice</title>
-    <base href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/">
+    <base href="http://localhost/Projeto_Modulo_2/">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -52,7 +52,7 @@
 
         if ($page == "jogo") {
             $pagina = "jogo/index.php";
-            $api = file_get_contents("https://dice-inc.000webhostapp.com/Projeto_Modulo_2/api");
+            $api = file_get_contents("http://localhost/Projeto_Modulo_2/api");
             $api_array = json_decode($api);
             $arrayFiltrado = array_filter($api_array, fn ($linha) => $linha->id == $jogo);
             if(sizeof($arrayFiltrado) == 0){

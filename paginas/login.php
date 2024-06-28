@@ -22,10 +22,10 @@
         <br>
         <br>
         <p>
-            <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/cadastre-se.php/">Não tem uma conta? Crie aqui!</a>
+            <a href="http://localhost/Projeto_Modulo_2/jogo/cadastre-se.php/">Não tem uma conta? Crie aqui!</a>
         </p>
         <br>
-        <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/favoritos" class="btn btn-botao">Fazer login</a>
+        <a href="http://localhost/Projeto_Modulo_2/favoritos" class="btn btn-botao">Fazer login</a>
     </form>
     </h2>
 

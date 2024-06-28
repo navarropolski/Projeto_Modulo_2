@@ -1,7 +1,7 @@
 <body>
 
     <div video-loop-container>
-        <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/eldenring" target="_blank"
+        <a href="http://localhost/Projeto_Modulo_2/jogo/eldenring" target="_blank"
             title="Elden Ring Shadow of the Erdtree">
 
             <video autoplay muted loop width="100%">
@@ -15,23 +15,23 @@
     <br>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <a href="https://dice-inc.000webhostapp.com/jogo/eldenring/"
+            <a href="localhost/jogo/eldenring/"
                 title="Elden Ring">
                 <div class="carousel-item active">
                     <img src="imagens/_eldenring.jpg" class="d-block w-100" alt="Elden Ring">
                 </div>
             </a>
-            <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/counterstrike2/" target="_blank" title="Counter Strike 2">
+            <a href="http://localhost/Projeto_Modulo_2/jogo/counterstrike2/" target="_blank" title="Counter Strike 2">
                 <div class="carousel-item">
                     <img src="imagens/cs2logo.jpg" class="d-block w-100" alt="Counter Strike 2">
                 </div>
             </a>
-            <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/dota2/" target="_blank" title="Dota 2">
+            <a href="http://localhost/Projeto_Modulo_2/jogo/dota2/" target="_blank" title="Dota 2">
                 <div class="carousel-item">
                     <img src="imagens/dota2logo.jpg" class="d-block w-100" alt="Dota 2">
                 </div>
             </a>
-            <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/dayz/" target="_blank" title="DayZ">
+            <a href="http://localhost/Projeto_Modulo_2/jogo/dayz/" target="_blank" title="DayZ">
                 <div class="carousel-item">
                     <img src="imagens/dayzlogo.jpg" class="d-block w-100" alt="DayZ">
                 </div>
@@ -67,7 +67,7 @@
                                 <h5 class="card-title">Dark Legacy</h5>
                                 <div class="price-and-button">
                                     <span class="price"></span>
-                                    <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/darklegacy"
+                                    <a href="http://localhost/Projeto_Modulo_2/jogo/darklegacy"
                                         class="btn-botao">Grátis</a>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                             <h5 class="card-title">LabFy Gize</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/labfygize" class="btn-botao">Grátis</a>
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/labfygize" class="btn-botao">Grátis</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <h5 class="card-title">Snake Hungry</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/snakehungry"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/snakehungry"
                                     class="btn-botao">Grátis</a>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                             <h5 class="card-title">Deep Rock Galactic</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 57,99</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/deeprockgalactic/"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/deeprockgalactic/"
                                     class="btn-botao">Comprar</a>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                             <h5 class="card-title">Elden Ring</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 199,90</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/eldenring" class="btn-botao">Comprar</a>
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/eldenring" class="btn-botao">Comprar</a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +149,7 @@
                             <h5 class="card-title">Counter Strike 2</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/counterstrike2/"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/counterstrike2/"
                                     class="btn-botao">Grátis</a>
                             </div>
                         </div>
@@ -167,7 +167,7 @@
                             <h5 class="card-title">Dota 2</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/dota2/" class="btn-botao">Grátis</a>
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/dota2/" class="btn-botao">Grátis</a>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                             <h5 class="card-title">DayZ</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 149,90</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/dayz/" class="btn-botao">Comprar</a>
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/dayz/" class="btn-botao">Comprar</a>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                             <h5 class="card-title">Shadow of War</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 229,99</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/shadowofwar/"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/shadowofwar/"
                                     class="btn-botao">Comprar</a>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                             <h5 class="card-title">Age of Empires II</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 36,99</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/ageofempires2"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/ageofempires2"
                                     class="btn-botao">Comprar</a>
                             </div>
                         </div>
@@ -235,7 +235,7 @@
                             <h5 class="card-title">Hearts of Iron VI</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 179,99</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/heartsofiron4"
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/heartsofiron4"
                                     class="btn-botao">Comprar</a>
                             </div>
                         </div>
@@ -251,7 +251,7 @@
                             <h5 class="card-title">Rust</h5>
                             <div class="price-and-button">
                                 <span class="price">R$ 103,49</span>
-                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/rust" class="btn-botao">Comprar</a>
+                                <a href="http://localhost/Projeto_Modulo_2/jogo/rust" class="btn-botao">Comprar</a>
                             </div>
                         </div>
                     </div>
