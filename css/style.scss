@@ -230,7 +230,12 @@ main {
 }
 
 .template-jogos {
-    background-color: #F65525;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.modal-header {
+    color:$primary;
 }
 
 @media (max-width: 480px) {
