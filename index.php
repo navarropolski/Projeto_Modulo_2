@@ -71,10 +71,19 @@
         ?>
 
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
     <footer class="footer">
-        <li><a>Copyright &copy; 2024 - Dice Inc - Todos os direitos reservados.</a></li>
-        <li><a href="sobre-o-desenvolvedor" title="Sobre o Desenvolvedor">Sobre o Desenvolvedor</a></li>
+        <p>Copyright &copy; 2024 - Dice Inc - Todos os direitos reservados.</p>
     </footer>
 
     <script>

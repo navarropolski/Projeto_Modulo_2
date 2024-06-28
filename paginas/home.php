@@ -1,7 +1,7 @@
 <body>
 
     <div video-loop-container>
-        <a href="https://store.steampowered.com/app/2778580/ELDEN_RING_Shadow_of_the_Erdtree/" target="_blank"
+        <a href="http://localhost/Projeto_Modulo_2/jogo/eldenring" target="_blank"
             title="Elden Ring Shadow of the Erdtree">
 
             <video autoplay muted loop width="100%">
@@ -9,17 +9,19 @@
             </video>
         </a>
     </div>
-
-
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <a href="https://store.steampowered.com/app/212500/The_Lord_of_the_Rings_Online/" target="_blank"
-                title="The Lord of the Rings Online">
+            <a href="https://store.steampowered.com/app/212500/The_Lord_of_the_Rings_Online/"
+                title="Elden Ring">
                 <div class="carousel-item active">
-                    <img src="imagens/lotrologo.jpg" class="d-block w-100" alt="The Lord of the Rings Online">
+                    <img src="imagens/_eldenring.jpg" class="d-block w-100" alt="Elden Ring">
                 </div>
             </a>
-            <a href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank" title="Counter Strike 2">
+            <a href="http://localhost/Projeto_Modulo_2/jogo/counterstrike2/" target="_blank" title="Counter Strike 2">
                 <div class="carousel-item">
                     <img src="imagens/cs2logo.jpg" class="d-block w-100" alt="Counter Strike 2">
                 </div>
@@ -48,11 +50,11 @@
     </div>
 
     <div class="container">
+        
         <br>
+        
         <br>
-        <br>
-        <br>
-        <br>
+    
         <div class="card-container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">

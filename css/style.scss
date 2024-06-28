@@ -23,6 +23,18 @@ body {
 
 h2 {
     color:$secondary;
+    font: 45px;
+}
+
+h3 {
+    color:$clear;
+    box-shadow: 0 0 10px #000;
+    font: 55px;
+}
+
+p {
+    color:$secondary;
+    font-size: 100%;
 }
 
 .btn-botao {
@@ -227,6 +239,16 @@ main {
     & &-nav {
         display: inline-block;
     }
+}
+
+.carousel-item img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+.description {
+    display: flex;
 }
 
 .template-jogos {

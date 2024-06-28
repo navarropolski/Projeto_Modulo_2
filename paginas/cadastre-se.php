@@ -21,7 +21,6 @@
         <div class="mb-3">
             <label for="exampleInputPassword2" class="form-label">Confirme a Senha</label>
             <input type="confirmpassword" class="form-control" id="exampleInputPassword2">
-            <div id="passwordHelp" class="form-text">Nunca compartilharemos suas informações com ninguém.</div>
         </div>
         <br>
         <div class="mb-3 form-check">

@@ -1,6 +1,8 @@
 <div class="container">
     
-    <br><br><br><br><br>
+    <br><br><br>
+    <br><br><br>
+    <br><br><br>
     <h2>
     <form>
         <div class="mb-3">
@@ -17,6 +19,11 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Lembre-se de mim</label>
         </div>
+        <br>
+        <br>
+        <p>
+            <a href="http://localhost/Projeto_Modulo_2/jogo/cadastre-se.php/">Não tem uma conta? Crie aqui!</a>
+        </p>
         <br>
         <button type="submit" class="btn btn-botao">Fazer login</button>
     </form>

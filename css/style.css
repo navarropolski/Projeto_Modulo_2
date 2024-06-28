@@ -15,6 +15,18 @@ body {
 
 h2 {
   color: #D7D9CE;
+  font: 45px;
+}
+
+h3 {
+  color: #57DEC0;
+  box-shadow: 0 0 10px #000;
+  font: 55px;
+}
+
+p {
+  color: #D7D9CE;
+  font-size: 100%;
 }
 
 .btn-botao {
@@ -205,6 +217,16 @@ main {
 }
 .header .header-nav {
   display: inline-block;
+}
+
+.carousel-item img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.description {
+  display: flex;
 }
 
 .template-jogos {
