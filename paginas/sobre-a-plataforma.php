@@ -90,7 +90,7 @@
                                 <h5 class="card-title">Dark Legacy</h5>
                                 <div class="price-and-button">
                                     <span class="price"></span>
-                                    <a href="http://localhost/Projeto_Modulo_2/jogo/darklegacy"
+                                    <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/darklegacy"
                                         class="btn-botao">Grátis</a>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@
                             <h5 class="card-title">LabFy Gize</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="http://localhost/Projeto_Modulo_2/jogo/labfygize" class="btn-botao">Grátis</a>
+                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/labfygize" class="btn-botao">Grátis</a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                             <h5 class="card-title">Snake Hungry</h5>
                             <div class="price-and-button">
                                 <span class="price"></span>
-                                <a href="http://localhost/Projeto_Modulo_2/jogo/snakehungry"
+                                <a href="https://dice-inc.000webhostapp.com/Projeto_Modulo_2/jogo/snakehungry"
                                     class="btn-botao">Grátis</a>
                             </div>
                         </div>
