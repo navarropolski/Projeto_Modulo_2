@@ -1,12 +1,11 @@
 <div class="container">
-    <br><br><br><br><br>
-    <br><br><br><br><br>
+    <br><br><br>
 
-
+    <br><br>
+        <h2>Olá Usuário, o que vamos jogar?</h2>
+    <br><br>
         <h3>Seus Favoritos</h3>
         <br><br>
-
-    <br><br><br><br><br>
 
     <div class="card-container">
             <div class="row">
