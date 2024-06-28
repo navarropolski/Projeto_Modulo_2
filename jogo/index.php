@@ -1,12 +1,10 @@
 <div class="container template-jogos">
     <?php foreach ($arrayFiltrado as $linha): ?>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h2><?= $linha->title ?></h2>
-        <br>
-        <br>
+        
+        <br><br><br><br><br><br><br>
+        <h3><?= $linha->title ?></h3>
+        <br><br><br>
+
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <a href="<?= $linha->url_steam ?>" target="_blank" title="<?= $linha->title ?>">
@@ -42,8 +40,11 @@
             </button>
         </div>
     </div>
+
         <br>
-        <p><?= $linha->descricao ?></p>
+        <h4><?= $linha->descricao ?></h4>
+        <br><br>
+
     <a href="<?= $linha->url_steam ?>" class="btn-botao">
         <?php
             echo $linha->is_free?"Jogar":"Comprar";

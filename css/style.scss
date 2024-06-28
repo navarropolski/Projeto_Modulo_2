@@ -32,6 +32,12 @@ h3 {
     font: 55px;
 }
 
+h4 {
+    color:$secondary;
+    font: 30px;
+    box-shadow: 0 0 10px #000;
+}
+
 p {
     color:$secondary;
     font-size: 100%;
@@ -136,6 +142,7 @@ p {
     box-sizing: border-box;
     z-index: 9;
     top: 0;
+    right: 0;
     & &-logo {
         float: left;
         img {
@@ -157,8 +164,13 @@ p {
         display: inline-block;
         ul {
             list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0;
+            margin: 0;
+            top: 0;
             li {
-                padding: 10px;
+                padding: 15px;
                 box-sizing: border-box;
                 border-bottom: 1px solid $clear;
                 font-size: 20px;

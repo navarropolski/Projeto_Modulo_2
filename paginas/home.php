@@ -15,7 +15,7 @@
     <br>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <a href="https://store.steampowered.com/app/212500/The_Lord_of_the_Rings_Online/"
+            <a href="http://localhost/Projeto_Modulo_2/jogo/eldenring/"
                 title="Elden Ring">
                 <div class="carousel-item active">
                     <img src="imagens/_eldenring.jpg" class="d-block w-100" alt="Elden Ring">
@@ -26,12 +26,12 @@
                     <img src="imagens/cs2logo.jpg" class="d-block w-100" alt="Counter Strike 2">
                 </div>
             </a>
-            <a href="https://store.steampowered.com/app/570/Dota_2/" target="_blank" title="Dota 2">
+            <a href="http://localhost/Projeto_Modulo_2/jogo/dota2/" target="_blank" title="Dota 2">
                 <div class="carousel-item">
                     <img src="imagens/dota2logo.jpg" class="d-block w-100" alt="Dota 2">
                 </div>
             </a>
-            <a href="https://store.steampowered.com/app/221100/DayZ/" target="_blank" title="DayZ">
+            <a href="http://localhost/Projeto_Modulo_2/jogo/dayz/" target="_blank" title="DayZ">
                 <div class="carousel-item">
                     <img src="imagens/dayzlogo.jpg" class="d-block w-100" alt="DayZ">
                 </div>
@@ -52,7 +52,6 @@
     <div class="container">
         
         <br>
-        
         <br>
     
         <div class="card-container">

@@ -57,7 +57,7 @@ $jogos = [
         "img_carousel4" => "imagens/eldenring3.jpg",
         "url" => "/jogo/eldenring/",
         "title" => "Elden Ring™",
-        "descricao" => "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias..",
+        "descricao" => "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
         "url_steam" => "https://store.steampowered.com/app/1245620/ELDEN_RING/",
         "is_free"=>false,
     ],

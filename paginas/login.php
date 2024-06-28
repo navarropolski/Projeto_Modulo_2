@@ -1,5 +1,5 @@
 <div class="container">
-    
+
     <br><br><br>
     <br><br><br>
     <br><br><br>
@@ -25,7 +25,7 @@
             <a href="http://localhost/Projeto_Modulo_2/jogo/cadastre-se.php/">Não tem uma conta? Crie aqui!</a>
         </p>
         <br>
-        <button type="submit" class="btn btn-botao">Fazer login</button>
+        <a href="http://localhost/Projeto_Modulo_2/favoritos" class="btn btn-botao">Fazer login</a>
     </form>
     </h2>
 
